@@ -1,0 +1,39 @@
+h1{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(218, 195, 195)
+
+}
+
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(218, 195, 195);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.bg-image{
+    width: 100%;
+    height: 120vh;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb702173-a276-48d6-b547-b4bd6c4d8c1b/dhg2u4i-f7e9fe93-b037-406a-8f55-4b9979080fb3.jpg/v1/fill/w_1182,h_676,q_70,strp/image_of_a_company_called_nova_luxury_events_by_sebbylickskitties_dhg2u4i-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvY2I3MDIxNzMtYTI3Ni00OGQ2LWI1NDctYjRiZDZjNGQ4YzFiXC9kaGcydTRpLWY3ZTlmZTkzLWIwMzctNDA2YS04ZjU1LTRiOTk3OTA4MGZiMy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vLIwX4mnG3fB2tiiABu-m1G0u5qXMzcOdSJJuoTH0A4");
+
+}
+
+.form{
+    background-color: rgb(138, 121, 121);
+    padding: 25px;
+    box-shadow: 2 8px rgba(0,0,0, .4);
+    border-radius: 33px;
+    margin: 10px;
+     
+
+}
+
