@@ -57,4 +57,4 @@ function myfunction(event) {
        outputDiv2.textContent =   `selected value: ${selectedvalue}`;
      })
 
-     
+      
