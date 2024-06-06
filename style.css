@@ -7,13 +7,31 @@
 }
 
 .header{
-    padding: 60px;
+    padding: 10px;
     text-align: center;
     background: rgb(120, 105, 105);
     color: black;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+
+    .logo-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+    }
+
+    .header-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
 }
 
@@ -35,10 +53,16 @@ body{
     align-items: center; 
     text-align: center;
     background-color: rgb(218, 195, 195);
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-    height: 100%;
+    font-family: 'san serif'
+
+
+
+
+
 }
+
+
+
 
 .bg-image{
     width: 100%;
@@ -48,6 +72,9 @@ body{
     background-size: cover;
 
 }
+
+
+
 
 .form{
     background-color: rgb(138, 121, 121);
@@ -72,7 +99,7 @@ body{
     flex-direction: column;
     text-align: left;
     border: none;
-    justify-content: space-between;
+    justify-content: space-between;                                                                 
     
 }
 
@@ -111,7 +138,7 @@ body{
 
 
 }
+.form button{
+    background-color: rgb(116, 93, 93);
 
-.button button{
-    box-shadow: 22px;
 }
