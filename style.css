@@ -6,34 +6,7 @@
 
 }
 
-.header{
-    padding: 10px;
-    text-align: center;
-    background: rgb(120, 105, 105);
-    color: black;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-    height: min-content;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
 
-    .logo-container{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-
-    }
-
-    .header-content{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-}
 
 
             /* h1{
@@ -45,7 +18,7 @@
             /* } */
 
 body{
-    padding: 80px;
+    padding: 60px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -53,16 +26,41 @@ body{
     align-items: center; 
     text-align: center;
     background-color: rgb(218, 195, 195);
-    font-family: 'san serif'
-
-
-
-
+    font-family: 'san serif';
 
 }
 
+.width-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
 
+.header{
+    /* padding: 10px; */
+     text-align: center;  
+    background: rgb(120, 105, 105);
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    width: 100%;
+     height: min-content; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+    .header-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+   .logo{
+    margin: 20px;
+
+    }
 
 .bg-image{
     width: 100%;
@@ -73,8 +71,19 @@ body{
 
 }
 
+.container1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; 
+      
 
+}
+.columncontainer{
+    display: flex;
+    flex-direction: row;
 
+}
 
 .form{
     background-color: rgb(138, 121, 121);
@@ -86,7 +95,6 @@ body{
     align-self: center;
     align-items: center;
      
-
 }
 
 .input{
@@ -134,8 +142,6 @@ body{
     box-shadow: 21px;
     background-color: rgb(120, 105, 105);
     align-items: center;
-
-
 
 }
 .form button{
