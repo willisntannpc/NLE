@@ -9,6 +9,20 @@
       {
         "label": "off"
       }
-    ]
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "on"
+      }
+    ],
+    "disown-opener": "off"
   }
 }

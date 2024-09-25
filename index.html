@@ -11,12 +11,14 @@
      
         
     <body>
+<div id="main">
+        <div class="width-container">
         <div class="header">
 
-            <div class="logo-container">
-                <div>
-                    <img src="images/logo.png" alt="novaluxuryevents" width="160" height="180">
-                 </div>
+            <div class="logo">
+                
+                    <img src="images/beige logo.jpg"alt="novaluxuryevents" width="400" height="180" >
+                
             </div>
                  
             <div class="header-content">
@@ -26,10 +28,18 @@
                 </div>
                     
             </div>
-
-         
-
         </div>
+        <div class="sidenav" id="mySidenav">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#engageus">Engage Us</a>
+            <a href="#contacts"> Our Contacts</a>
+
+            <button class="closebtn">x</button>
+        </div>
+        <span onclick="openNav()" class="opennav">(op)</span>
+
 
 
     <div class="bg-image"  id="bg-image"></div>
@@ -46,20 +56,7 @@
         
             </p>
 
-                <div class="image-container">
-                    <div>
-                        <img src="images/Screenshot (993).png" alt="novaluxuryevents" width="225" height="305"> <br>
-                    </div>
-                </div>
-
-                <div>
-                follow us on Tik Tok @<a  href="https://www.tiktok.com/@novaluxuryevents">novaluxuryevents</a>  <br/>
-                follow us on Instagram @<a href="https://www.instagram.com/novaluxuryeventske/">novaluxuryeventske</a> <br> 
-                chat with us on WhatsApp <a href="https://www.whatsapp.com/">WA link goes here!</a>    
-
-                </div>
-
-
+                
        <p id="p with id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur nulla accusamus qui quia non nihil sequi dolorem at facilis tempora a  <br/>
          reiciendis harum nemo inventore impedit nihil magni expedita! Sed vel perferendis temporibus a molestiae ducimus pariatur officia! Quod repell <br/> 
          eos velit itaque, nobis modi doloribus excepturi accusantium debitis. Accusantium, architecto inventore iusto, nisi nulla, ratione est iste!</p>
@@ -69,8 +66,9 @@
       
 
       
-            
+        <div class="columncontainer">     
                 <div class="cointainer">
+                    <h3><strong>about us</strong></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque, eius iusto
                         el sequi accusamus laboriosam, incidunt quas repellendus, dicta eum qui id. Voluptate,
                         incidunt impedit! Consectetur veritatis odio quisquam corporis dignissimos amet autem
@@ -103,6 +101,7 @@
                 </div>
 
                 <div class="container">
+                    <h3><strong>services</strong></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque, eius iusto
                         el sequi accusamus laboriosam, incidunt quas repellendus, dicta eum qui id. Voluptate,
                         incidunt impedit! Consectetur veritatis odio quisquam corporis dignissimos amet autem
@@ -134,8 +133,38 @@
                         modi in asperiores distinctio praesentium odit optio mollitia illum incidunt eveniet 
                         cusandae placeat dolore non officia, molestias, beatae vitae temporibus nesciunt!</p>
                  </div>
+        </div> 
 
-    
+        <div>
+            <div>
+                <h3><strong>reviews</strong></h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eligendi, 
+                    dicta deserunt dolores eveniet incidunt sapiente suscipit ullam quos numquam officia necessitatibus,
+                     praesentium in labore tempore vel quisquam nobis iste.</p>
+            </div>
+        </div>
+
+
+
+        
+        <div class="wrapper">
+            <div class="items">
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-11-41.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-11-44.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-11-59.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-07.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-13-21.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-20.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-58.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-13-10.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-36.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-45.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-48.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-53.jpg)"></div>
+              <div class="item" style="background-image: url(images/photo_2024-06-21_09-12-24.jpg)"></div>
+                
+              </div> 
+        </div>
 
 
         <p>You can customise youe desired event to give us a general idea of your dream event.
@@ -156,10 +185,12 @@
             
       
             <select  id="type of event desired" class="options">
-                 <option value="baby showers">Baby Showers</option>
+                <option value="baby showers">Baby Showers</option>
                 <option value="gender reveals">Gender Reveals</option>
-                <option value="birthdays">Birthdays</option>                <option value="weddings">Weddings</option>
-                <option value="corporate events">Corporate Events</option>                <option value="concerts">Concerts</option>
+                <option value="birthdays">Birthdays</option>                
+                <option value="weddings">Weddings</option>
+                <option value="corporate events">Corporate Events</option>                
+                <option value="concerts">Concerts</option>
                 <option value="cultural events">Cultural Events</option> 
                 <option value="other custom event">Other Custom Event</option>
             </select>  
@@ -221,12 +252,50 @@
             document.getElementById("button-txt").innerHTML = "booked"
         })
      </script>
-    </div>
-       
-               
+    </div>      
+                 <br><br>
+    <div class="contactcontainer">
+            <p><b>contact us</b></p> <br><br>
 
+            <div class="cc2">
+                <div class="linkcontainer">
+                    <a target="_blank" href="https://www.tiktok.com/@novaluxuryevents"><i class="fa-brands fa-tiktok" id="icons"></i></a> <br>  -->
+                    <a target="_blank" href="https://www.instagram.com/novaluxuryeventske/"><i class="fa-brands fa-instagram" id="icons"></i></a> <br>
+                    <a target="_blank" href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp" id="icons"></i></a>  <br>
+                    <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube" id="icons"></i></a> <br>
+                    <a target="_blank" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in" id="icons"></i></a> <br>
+                    <a target="_blank" href="https://x.com/"><i class="fa-brands fa-x-twitter" id="icons"></i></a> <br>
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook" id="icons"></i></a> <br>
+                    <a target="_blank" href="https://accounts.google.com/v3/signin/identifier?continue=https://mail.google.com/mail/&service=mail&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa-regular fa-envelope" id="icons"></i></a> <br>
+                </div>
+                                <br>
+                <div>
+                <div>
+                    <p>+254 763-957-781</p>
+                    <p>+254 706-734-591</p>
+                </div>
+                <div>
+                    <p>P.O. Box. 2263-00618</p>
+                    <p>Ruaraka.</p>
+                </div>
+                <div>
+                    <p>2nd Mezzanine floor, Akai Complex,</p>
+                    <p>237 Garden Estate road, Nairobi, Kenya.</p>
+                </div>
+                </div>
+           </div>
+    </div>
+               
+</div>
+</div>
        
     </body>
-</html>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/4f07661985.js" crossorigin="anonymous"></script>
+    <script src="carousell script.js"></script>
+    <script src="sidenav.js"></script>
+    </html>
 
- 
+
+
+   
