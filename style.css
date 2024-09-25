@@ -24,9 +24,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+<<<<<<< HEAD
     text-align: center;         
     background-color: rgb(254, 203, 165); 
     font-family: 'san serif'; 
+=======
+    text-align: center;
+    background-color: rgb(218, 195, 195);
+    font-family: 'san serif';
+>>>>>>> ec4619848b4dde96b0d41a6d027f3ce4ba9caf7e
 
 }
 
@@ -39,13 +45,18 @@ body{
 .header{
     /* padding: 10px; */
      text-align: center;  
+<<<<<<< HEAD
     background: rgb(198, 161, 131);
+=======
+    background: rgb(120, 105, 105);
+>>>>>>> ec4619848b4dde96b0d41a6d027f3ce4ba9caf7e
     color: black;
     font-size: 30px;
     font-family: 'Times New Roman';
     width: 100%;
      height: min-content; 
     display: flex;
+<<<<<<< HEAD
     /* flex-direction: row; */
     justify-content: center;
 }
@@ -118,7 +129,23 @@ body{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+=======
+    flex-direction: row;
+    justify-content: center;
+}
+>>>>>>> ec4619848b4dde96b0d41a6d027f3ce4ba9caf7e
 
+    .header-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+   .logo{
+    margin: 20px;
+
+    }
 
 .bg-image{
     width: 100%;
@@ -129,14 +156,28 @@ body{
 
 }
 
+<<<<<<< HEAD
       
 .columncontainer{
     display: flex;
     flex-direction: row;
 
 }
+=======
+.container1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; 
+      
+>>>>>>> ec4619848b4dde96b0d41a6d027f3ce4ba9caf7e
 
+}
+.columncontainer{
+    display: flex;
+    flex-direction: row;
 
+<<<<<<< HEAD
 .wrapper{
     margin: 0;
     padding: 10px;
@@ -255,6 +296,8 @@ body{
 .items > div {
     height: 220px;
     width: 100px;
+=======
+>>>>>>> ec4619848b4dde96b0d41a6d027f3ce4ba9caf7e
 }
 
 .form{
@@ -319,6 +362,7 @@ body{
 .form button{
     background-color:rgb(161, 125, 96);
 
+<<<<<<< HEAD
 }
 
  .linkcontainer{
@@ -340,3 +384,6 @@ body{
 }  
 
 
+=======
+}
+>>>>>>> ec4619848b4dde96b0d41a6d027f3ce4ba9caf7e
